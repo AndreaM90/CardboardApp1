@@ -8,6 +8,8 @@ public class viewEffect : MonoBehaviour
 
     public Texture2D textureImage;
 
-    void OnGUI() { GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), textureImage); }
+    void OnGUI() {
+        GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), textureImage);
+                 }
 
 }

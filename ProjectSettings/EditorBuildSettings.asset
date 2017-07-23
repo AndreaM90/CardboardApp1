@@ -6,8 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/LevelWin.unity
-    guid: 3f2298beb3f00d0498a1900b9c2fa564
+    path: Assets/MainMenu.unity
+    guid: d5fa733b664709444b60c75ae337d038
   - enabled: 1
     path: Assets/WolfMain.unity
     guid: ffaa252f6c8d78945b68bcf97c33c34a
+  - enabled: 1
+    path: Assets/LevelWin.unity
+    guid: 3f2298beb3f00d0498a1900b9c2fa564
+  - enabled: 1
+    path: Assets/LevelLose.unity
+    guid: 60471b85f643ff7408fdaa784ce7caa2
+  - enabled: 1
+    path: Assets/WolfLevel2.unity
+    guid: 2e21bdd1efb44be438dc2969de997af8
+  - enabled: 1
+    path: Assets/WolfLevel3.unity
+    guid: 17e62b39e04622543ba09dd6a64bd0f4

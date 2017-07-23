@@ -88,6 +88,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AutoMove.cs" />
+    <Compile Include="Assets\Brightness.cs" />
+    <Compile Include="Assets\BrightnessG2.cs" />
+    <Compile Include="Assets\ButtonNextLevel.cs" />
+    <Compile Include="Assets\ButtonRetry.cs" />
+    <Compile Include="Assets\CameraFollowBordered.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\GVRDemoManager.cs" />
@@ -197,10 +202,14 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
     <Compile Include="Assets\ScoreText.cs" />
-    <Compile Include="Assets\SetBorderG1.cs" />
+    <Compile Include="Assets\ScoreTextTotal.cs" />
+    <Compile Include="Assets\SelectBLeft.cs" />
+    <Compile Include="Assets\SelectBRight.cs" />
+    <Compile Include="Assets\StartGame.cs" />
     <Compile Include="Assets\viewEffect.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\BrightnessEffect.shader" />
     <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoAmbientOcclusion.shader" />
     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoUnlitGrayscaleToColor.shader" />
@@ -219,6 +228,7 @@
     <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
     <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\TS Sounds\Read Me.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

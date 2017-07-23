@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/LevelWin.unity
+- path: Assets/WolfMain.unity
   isLoaded: 1
   isActive: 1

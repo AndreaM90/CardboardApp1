@@ -1,12 +1,12 @@
 fileFormatVersion: 2
 guid: 5f081301311a40b4c935f057ee8389b4
-timeCreated: 1500043805
+timeCreated: 1500475837
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - textureImage: {instanceID: 0}
-  executionOrder: 0
+  executionOrder: 300
   icon: {instanceID: 0}
   userData: 
   assetBundleName: 

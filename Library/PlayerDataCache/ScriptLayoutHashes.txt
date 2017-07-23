@@ -1,5 +1,8 @@
 Android
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SelectBRight
+a6ebac691c35181bd7b6c6ce491b2066 Assembly-CSharp.dll:.BrightnessG2
 176f67aae4ec7273cfef37fd8876bd9a Assembly-CSharp.dll:.GvrDropdown
+a6ebac691c35181bd7b6c6ce491b2066 Assembly-CSharp.dll:.Brightness
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cac917711d0e84d412d48737b6fc9ae7 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -139,8 +142,8 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.DragRigidbody
 64e53bc128400f563a86ade43816f1c3 Assembly-CSharp.dll:.FloatTile
 78ebae5ed9b3edeb216da437b99754a4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.Joystick
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ButtonNextLevel
 149e538468c9a609cf26b23682c996c7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.PlatformSpecificContent
-90be9c8d088c308713074587eb17de57 Assembly-CSharp.dll:.SetBorderG1
 4df86f437a61b08c14fd0adff88ddf71 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ActivateTrigger
 a2efb0db652b8114d1ae7dd9a600d626 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar
 fe76270bd84ec3b6f2f6f92c69cf69da Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.AxisTouchButton
@@ -158,7 +161,9 @@ a90e94673f50d2237c1b971c138660c6 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.MobileControlRig
 7b9249923df3f51f329e72d5b82d6544 Assembly-CSharp.dll:.GvrBatteryIndicator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ObjectResetter
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ButtonRetry
 998c570f84856acafa7bd7b04e94e163 Assembly-UnityScript.dll:.Animation Controller
+aee31389aad8ade6b604eaa7bb6f804e Assembly-CSharp.dll:.ScoreTextTotal
 d16a7663a07c331d6870f5924559de23 Assembly-CSharp.dll:.GvrLaserPointer
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -175,8 +180,9 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.Restarter
+80b201b63dbd6c13e3f972a58584e92b Assembly-CSharp.dll:.ScoreText
 2dbfd4f7836c7f6a79e17be5f4bf7969 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.WaypointCircuit
-71eb28e318728aa7479ebc9274aacd9e Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.CameraFollowBordered
+71eb28e318728aa7479ebc9274aacd9e Assembly-CSharp.dll:UnityStandardAssets._2D.CameraFollowBordered
 1c952386af3ef6bd3c90a34c4fd12f6b Assembly-CSharp.dll:.Teleport
 3ea4ece92e01e67f249480dd0b6cce0f Assembly-CSharp.dll:.GvrTouchPoint
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.Platformer2DUserControl
@@ -199,6 +205,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 2124af75d6b3afb90d3c8471b98e9f78 Assembly-CSharp.dll:.GvrFPS
 18b818a5eacfdcbea09d5a054be7238a Assembly-CSharp.dll:.GvrReticlePointer
 4b8ea17c4350779db30d026c2281dfcb Assembly-CSharp.dll:.PooledPageProvider
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.StartGame
 36ed787de81d47f5c7576e9aae0e3861 Assembly-CSharp.dll:.GvrArmModelOffsets
 db3b233e35a88802fed1717d19c3d9ec Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FollowTarget
 d91d56ec20368b1c36a9fc0054b4b9aa Assembly-CSharp.dll:.GvrControllerVisual
@@ -212,6 +219,7 @@ f12b46990184302ae413ff95cea31566 Assembly-CSharp.dll:.FadeScrollEffect
 1c49e111c1374287e31c753f785826a5 Assembly-CSharp.dll:.GvrPointerGraphicRaycaster
 5d708ead9a8a3f8af542fec349ed718c Assembly-CSharp.dll:Gvr.Internal.EmulatorConfig
 a8b185f93b85036e13e3f553c802615a Assembly-CSharp.dll:.GvrTooltip
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SelectBLeft
 764d2ecb131d46720e1b8d63b8f7c2ba Assembly-CSharp.dll:.KeyboardDelegateExample
 6b8bc70a4e737406cfd584f788ef5376 Assembly-CSharp.dll:.GvrAudioSource
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FPSCounter
@@ -224,5 +232,6 @@ c5839a4d51b9b5220e5cc04a930d6b3f Assembly-CSharp.dll:.UIFadeTransition
 e399fc54e753911801f12ac57c8fc414 Assembly-CSharp.dll:.GVRDemoManager
 f1dced04f168103741226c31e59bf1c5 Assembly-CSharp.dll:.Tab
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GVRSample.AutoPlayVideo
+bb0c04a743783f09c419f815192bb13d Assembly-CSharp.dll:.AutoMove
 a412f64ff4e4667098f82b7fa0bf56e2 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.PlatformerCharacter2D
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
