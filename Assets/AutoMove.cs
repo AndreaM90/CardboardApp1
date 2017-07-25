@@ -8,17 +8,17 @@ public class AutoMove : MonoBehaviour {
 
     private bool grounded = false; //variabile utilizzata per determinare quando il giocatore è a contatto con il suolo
     private float maxSpeed = 3f; //velocità in movimento
-    private float jumpHeight = 8f; //altezza salto
+    private float jumpHeight = 9f; //altezza salto
     public Animator anim; //animator per richiamare le animazioni del personaggio 
 
 
     public static int coinCount; //contatore per tener traccia delle monete raccolte: si azzera se si perde il livello
     public static int coinPlayer;//contatore monete totali raccolte
 
-    public AudioClip coinclip;
-    public AudioClip levelclip;
-    public AudioClip enemyclip;
-    public AudioClip endclip;
+    public AudioClip coinclip; //audio della raccolta delle monete
+    public AudioClip levelclip; //audio di sottofondo del livello
+    public AudioClip enemyclip; //audio innescato a contatto con un nemico
+    public AudioClip endclip; //audio di fine livello (vittoria)
 
 
     private void Start()
@@ -40,11 +40,13 @@ public class AutoMove : MonoBehaviour {
             GetComponent<AudioSource>().PlayOneShot(coinclip);
 
             Destroy(collision.gameObject); //ogni volta che il personaggio collide con una moneta, essa viene distrutta e il contatore incrementato
-            coinCount++;
+            coinCount++; //si incrementa il contatore locale
         }
 
         if(collision.gameObject.tag == "Enemy")
         {
+            //al contatto con un nemico, il personaggio del giocatore viene freezato, dopodichè si attiva la routine indicata
+
             grounded = false;
             anim.enabled = false;
             GetComponent<Rigidbody2D>().velocity = new Vector2(0,0);
@@ -60,7 +62,7 @@ public class AutoMove : MonoBehaviour {
         }
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (grounded == true)
         {
@@ -75,6 +77,8 @@ public class AutoMove : MonoBehaviour {
 
     }
 
+    //routine di sconfitta: si carica l'audio appropriato, si attende un timeout di 4 sec e si azzera il contatore locale, poi si carica la scena di sconfitta
+    
     IEnumerator lostRoutine()
     {
         GetComponent<AudioSource>().Stop();
@@ -84,6 +88,8 @@ public class AutoMove : MonoBehaviour {
         coinCount = 0;
         UnityEngine.SceneManagement.SceneManager.LoadScene("LevelLose");
     }
+
+    //routine di vittoria: si carica l'audio appropriato, si attende un timeout di 4 sec e si aggiorna il contatore globale del giocatore
 
     IEnumerator winRoutine()
     {

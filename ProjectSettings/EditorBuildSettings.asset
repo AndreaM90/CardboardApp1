@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/NewLoadGame.unity
+    guid: b675dec93c1902f41a114c1329053b6a
+  - enabled: 1
     path: Assets/MainMenu.unity
     guid: d5fa733b664709444b60c75ae337d038
   - enabled: 1
@@ -18,8 +21,20 @@ EditorBuildSettings:
     path: Assets/LevelLose.unity
     guid: 60471b85f643ff7408fdaa784ce7caa2
   - enabled: 1
+    path: Assets/WolfLevel1.unity
+    guid: 9bdef21b31cc33b4e95d5c6f35831614
+  - enabled: 1
     path: Assets/WolfLevel2.unity
     guid: 2e21bdd1efb44be438dc2969de997af8
   - enabled: 1
     path: Assets/WolfLevel3.unity
     guid: 17e62b39e04622543ba09dd6a64bd0f4
+  - enabled: 1
+    path: Assets/WolfLevel4.unity
+    guid: a386bf4c4aba90f4ea7b50a03044d36c
+  - enabled: 1
+    path: Assets/WolfLevel5.unity
+    guid: e754c9d074cf9cc4084ef5a4413200b0
+  - enabled: 1
+    path: Assets/WolfLevel6.unity
+    guid: 3bc008131cfc69c4587fa6f1f6faabea

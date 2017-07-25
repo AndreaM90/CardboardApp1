@@ -18,6 +18,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 fcf95df48afa67160050c368b530f998 Assembly-CSharp.dll:.viewEffect
 90b96b2839cd8159f80ebdc119f2f187 Assembly-CSharp.dll:.PagedScrollBar
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayGame
 da1c580343244172d67fb46650bbc762 Assembly-CSharp.dll:.ScaleScrollEffect
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.EventSystemChecker
 88aa8214ed1d10780335e500d1da4b19 Assembly-CSharp.dll:.GvrVideoPlayerTexture
@@ -165,6 +166,7 @@ a90e94673f50d2237c1b971c138660c6 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 998c570f84856acafa7bd7b04e94e163 Assembly-UnityScript.dll:.Animation Controller
 aee31389aad8ade6b604eaa7bb6f804e Assembly-CSharp.dll:.ScoreTextTotal
 d16a7663a07c331d6870f5924559de23 Assembly-CSharp.dll:.GvrLaserPointer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NewGame
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -195,6 +197,7 @@ d2af69ce28cda6fcf0b7728ae3f251b4 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 3542ab9584c82275ec93ac857f8e8fc2 Assembly-CSharp.dll:.GvrPointerPhysicsRaycaster
 602017ac837ce39de79e6b98478ee720 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.SimpleActivatorMenu
 145a2fa61e986ff4b79d8ce7959fc905 Assembly-CSharp.dll:.GvrRecenterOnlyController
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LoadGame
 773659ee139465de815012b250038305 Assembly-CSharp.dll:.VideoPlayerReference
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Gvr.Internal.EmulatorManager
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
@@ -235,3 +238,4 @@ d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GVRSample.AutoPlayVideo
 bb0c04a743783f09c419f815192bb13d Assembly-CSharp.dll:.AutoMove
 a412f64ff4e4667098f82b7fa0bf56e2 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.PlatformerCharacter2D
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
+7b1e994e6b6343e69e5aedce4ab96151 Assembly-CSharp.dll:.SampleControl

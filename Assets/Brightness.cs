@@ -5,8 +5,8 @@ using UnityEngine;
 public class Brightness : MonoBehaviour
 {
 
-    /// Provides a shader property that is set in the inspector
-    /// and a material instantiated from the shader
+    //Brightness per la camera 1
+
     public Shader shaderDerp;
     Material m_Material;
 

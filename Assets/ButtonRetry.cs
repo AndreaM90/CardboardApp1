@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ButtonRetry : MonoBehaviour {
 
+    //nella schermata di sconfitta, una volta premuto il pulsante si ricarica l'ultimo livello giocato (e non  vinto)
+
 
 	public void onClick()
     {

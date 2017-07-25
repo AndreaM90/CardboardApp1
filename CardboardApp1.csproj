@@ -201,6 +201,10 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrMathHelpers.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+    <Compile Include="Assets\LoadGame.cs" />
+    <Compile Include="Assets\MakakaIconPack\Scripts\SampleControl.cs" />
+    <Compile Include="Assets\NewGame.cs" />
+    <Compile Include="Assets\PlayGame.cs" />
     <Compile Include="Assets\ScoreText.cs" />
     <Compile Include="Assets\ScoreTextTotal.cs" />
     <Compile Include="Assets\SelectBLeft.cs" />
@@ -209,7 +213,6 @@
     <Compile Include="Assets\viewEffect.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\BrightnessEffect.shader" />
     <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoAmbientOcclusion.shader" />
     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoUnlitGrayscaleToColor.shader" />
@@ -224,6 +227,8 @@
     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+    <None Include="Assets\MakakaIconPack\Fonts\Font_Read_Me.txt" />
+    <None Include="Assets\My Assets\Shaders\BrightnessEffect.shader" />
     <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
     <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
     <None Include="Assets\Plugins\Android\proguard-gvr.txt" />

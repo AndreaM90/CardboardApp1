@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BrightnessG2 : MonoBehaviour {
 
-    /// Provides a shader property that is set in the inspector
-    /// and a material instantiated from the shader
+    //modifichiamo la luminosità della camera relativa all'occhio non ambliope e lo facciamo progressivamente all'avanzare dei livelli
+
     public Shader shaderDerp;
     Material m_Material;
 
