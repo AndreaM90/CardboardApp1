@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - EndLevel
   - Coin
+  - FloatGround
+  - EndGame
   layers:
   - Default
   - TransparentFX

@@ -6,35 +6,47 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/NewLoadGame.unity
+    path: Assets/My Assets/Scenes/NewLoadGame.unity
     guid: b675dec93c1902f41a114c1329053b6a
   - enabled: 1
-    path: Assets/MainMenu.unity
+    path: Assets/My Assets/Scenes/MainMenu.unity
     guid: d5fa733b664709444b60c75ae337d038
   - enabled: 1
-    path: Assets/WolfMain.unity
+    path: Assets/My Assets/Scenes/WolfMain.unity
     guid: ffaa252f6c8d78945b68bcf97c33c34a
   - enabled: 1
-    path: Assets/LevelWin.unity
+    path: Assets/My Assets/Scenes/LevelWin.unity
     guid: 3f2298beb3f00d0498a1900b9c2fa564
   - enabled: 1
-    path: Assets/LevelLose.unity
+    path: Assets/My Assets/Scenes/LevelLose.unity
     guid: 60471b85f643ff7408fdaa784ce7caa2
   - enabled: 1
-    path: Assets/WolfLevel1.unity
+    path: Assets/My Assets/Scenes/WolfLevel1.unity
     guid: 9bdef21b31cc33b4e95d5c6f35831614
   - enabled: 1
-    path: Assets/WolfLevel2.unity
+    path: Assets/My Assets/Scenes/WolfLevel2.unity
     guid: 2e21bdd1efb44be438dc2969de997af8
   - enabled: 1
-    path: Assets/WolfLevel3.unity
+    path: Assets/My Assets/Scenes/WolfLevel3.unity
     guid: 17e62b39e04622543ba09dd6a64bd0f4
   - enabled: 1
-    path: Assets/WolfLevel4.unity
+    path: Assets/My Assets/Scenes/WolfLevel4.unity
     guid: a386bf4c4aba90f4ea7b50a03044d36c
   - enabled: 1
-    path: Assets/WolfLevel5.unity
+    path: Assets/My Assets/Scenes/WolfLevel5.unity
     guid: e754c9d074cf9cc4084ef5a4413200b0
   - enabled: 1
-    path: Assets/WolfLevel6.unity
+    path: Assets/My Assets/Scenes/WolfLevel6.unity
     guid: 3bc008131cfc69c4587fa6f1f6faabea
+  - enabled: 1
+    path: Assets/My Assets/Scenes/WolfLevel7.unity
+    guid: 0b9c0b46047c73744b97e05e05984e0c
+  - enabled: 1
+    path: Assets/My Assets/Scenes/WolfLevel8.unity
+    guid: 65246f58b3e3d5d4e9f7052afbd53122
+  - enabled: 1
+    path: Assets/My Assets/Scenes/WolfLevel9.unity
+    guid: c4a69f8d9389a2140ba7f749f8e0d009
+  - enabled: 1
+    path: Assets/My Assets/Scenes/EndWolf.unity
+    guid: 129af7db9572c324abf15973d0092777
